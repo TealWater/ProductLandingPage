@@ -1,11 +1,16 @@
-ul{
+#nav-bar ul{
+  position: fixed;
   list-style: none;
   margin: 0;
   padding: 0;
 }
-li{
+#nav-bar li{
   display: inline-block;
   font-size: 20px;
+}
+
+#nav-bar{
+  padding-bottom: 15px;
 }
 
 .right{
@@ -19,5 +24,13 @@ li{
 }
 
 #our-values{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
   text-align: center;
+  border: red 1px solid;
+}
+
+.heading{
+text-align: left;
+margin-left: 12em;
 }
