@@ -58,10 +58,14 @@ body{
   margin: 0 20em 0 20em;
   
 }
+.tenor{
+  background-color: lightcoral;
+  padding: 15px;
+}
 .item{
-  /*display: flex;*/
   border: 1px solid black;
-  height: 15em;
+  background-color: rgba(211, 211, 211);
+  height: 15em; 
   
   
 }
@@ -69,3 +73,4 @@ item p{
   text-align: center;
   word-wrap: break-word;
 }
+
